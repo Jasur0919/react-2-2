@@ -57,15 +57,15 @@ function App() {
       <div className="box">
        <div className="metr_yurish">
           <h1> {count} metr  <BsPersonWalking className='metr_yurish_person' /></h1>
-          <button  className='btns'  onClick={() => setCount(per => per + 1)}>Oldinga ...</button>
-          <button disabled={count <= 0}  className='btn_1 btns' onClick={() => setCount(per => per - 1)}>Orqaga ...</button>
+          <button  className='btns'  onClick={() => setCount(per => (per + countbig))}>Oldinga ...</button>
+          <button disabled={count <= 0}  className='btn_1 btns' onClick={() => setCount(per => per - countbig)}>Orqaga ...</button>
        </div>
 
        <div className="qadam_kattaligi">
           <h1>Qadam kattaligi: {countbig} metr</h1>
           <button  data-aos="fade-right"
             onClick={() => setCountbig(e => e + 1)}>qadam kengaytirish</button>
-          <button disabled={ countbig <= 0} data-aos="fade-left" className='btn_2' onClick={() => setCountbig(e => e - 1)}>qadam kengaytirish</button>
+          <button disabled={ countbig <= 0} data-aos="fade-left" className='btn_2' onClick={() => setCountbig(e => e - 1)}>qadam qisqartirish</button>
        </div>
      
 

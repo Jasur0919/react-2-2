@@ -68,7 +68,7 @@ body {
     color: rgb(132, 231, 223);
 }
 
- .metr_yurish_person:disabled:hover{
+ .metr_yurish_person:disabled:hover, button{
     background: rgb(137, 168, 164);
 }
 
