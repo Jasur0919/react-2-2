@@ -11,6 +11,10 @@
     padding: 0 20px;
 }
 
+body {
+    cursor: default !important;
+}
+
 .main {
     display: flex;
     align-items: flex-start;
@@ -50,10 +54,13 @@
     border-radius: 4px;
     cursor: pointer;
     transition: .3s linear;
+    cursor: url(https://react-2-five-snowy.vercel.app/) !important;
 }
 
 .metr_yurish .metr_yurish_person, .btns {
     transition: .3s linear;
+    
+    
 
 }
 
@@ -61,8 +68,16 @@
     color: rgb(132, 231, 223);
 }
 
+ .metr_yurish_person:disabled:hover{
+    background: rgb(137, 168, 164);
+}
+
 .btn_1 {
     margin-left: 20px;
+}
+
+.btn_1:disabled {
+    background: rgb(137, 168, 164);
 }
 
 
@@ -92,6 +107,10 @@
 
 .btn_2 {
     margin-left: 20px;
+}
+
+.btn_2:disabled {
+    background: rgb(137, 168, 164);
 }
 
 
@@ -127,7 +146,7 @@
 }
 
 .btn_4 {
-    background: red;
+    background: green;
     padding: 6px 10px;
     border: none;
     outline: none;
@@ -142,11 +161,15 @@
 
 .btn_5 {
     padding: 6px 13px;
-    background: green;
+    background: red;
     border: none;
     outline: none;
     font-size: 30px;
     font-family: 700px;
+}
+
+.btn_5:disabled {
+    background: rgb(214, 115, 115);
 }
 
 
