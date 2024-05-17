@@ -96,7 +96,7 @@ function App() {
               data-aos-duration="500" className='add_counter_child' key={index}>
 
               <button onClick={() => increment(index)} className='btn_4'>+</button>
-              <h3>{item}</h3>
+              <h1>{item}</h1>
                <button disabled={ item <= 0 } onClick={() => discrement(index)}  className='btn_5'>-</button>
           </div>
             )

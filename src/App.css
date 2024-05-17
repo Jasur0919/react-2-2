@@ -222,6 +222,7 @@ body {
     cursor: pointer;
     overflow: hidden;
     border: 1px solid rgb(132, 231, 223);
+   
 }
 
 .btn_6:hover {
@@ -237,4 +238,23 @@ body {
     justify-content: center;
     gap: 42px;
     margin-top: 30px;
+}
+
+.btn_4 {
+    border-radius: 2px;
+}
+.btn_5 {
+    border-radius: 2px;
+}
+
+
+
+@media(max-width: 649px) {
+    .main {
+        justify-content: center;
+    }
+
+    .add_counter {
+        padding-top: 50px;
+    }
 }
