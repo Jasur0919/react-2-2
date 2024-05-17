@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.box {
+    text-align: center;
+}
+
+.metr_yurish  {
+    /* padding: 50px; */
+   
+}
+
+.metr_yurish_person {
+    height: 100px;
+    width: 100px;
+    transition: .3s linear;
+}
+
+.metr_yurish_person:hover {
+    transform: scale(1.09);
+}
+
+.metr_yurish button {
+    border: none;
+    outline: none;
+    background: rgb(132, 231, 223);
+    padding: 10px 27px;
+    color: white;
+    font-size: 18px;
+    font-family: 600px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.metr_yurish .metr_yurish_person, .btns {
+    transition: .3s linear;
+
+}
+
+.metr_yurish:hover .metr_yurish_person, button {
+    color: rgb(132, 231, 223);
+}
+
+.btn_1 {
+    margin-left: 20px;
+}
+
+
+.qadam_kattaligi {
+    padding-top: 50px;
+}
+
+.qadam_kattaligi button {
+    border: none;
+    outline: none;
+    background: rgb(132, 231, 223);
+    padding: 10px 27px;
+    color: white;
+    font-size: 18px;
+    font-family: 600px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.qadam_kattaligi button:hover {
+    color: rgb(132, 231, 223);
+    background: white;
+    border: 1px solid rgb(132, 231, 223);
+}
+
+.btn_2 {
+    margin-left: 20px;
+}
+
+
+
+.login {
+    padding-top: 50px;
+}
+
+.login button {
+    border: none;
+    outline: none;
+    background: rgb(132, 231, 223);
+    padding: 10px 27px;
+    color: white;
+    font-size: 18px;
+    font-family: 600px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.login button:hover {
+    color: rgb(132, 231, 223);
+    background: white;
+    border: 1px solid rgb(132, 231, 223);
+}
+
+
+.add_counter {
+    text-align: center;
+   
+}
+
+.btn_4 {
+    background: red;
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-family: 700px;
+}
+
+.add_counter span {
+    font-size: 30px;
+    font-family: 600px;
+}
+
+.btn_5 {
+    padding: 6px 13px;
+    background: green;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-family: 700px;
+}
+
+
+
+.btn_6 {
+    border: none;
+    outline: none;
+    background: rgb(132, 231, 223);
+    color: white;
+    padding: 7px 17px;
+    font-size: 25px;
+    font-family: 600px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn_6:hover {
+    color: rgb(132, 231, 223);
+    border: 1px solid rgb(132, 231, 223);
+    background-color: white;
+}
+
+
+.add_counter_child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 30px;
+}
