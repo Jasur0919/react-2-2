@@ -68,6 +68,10 @@ body {
     color: rgb(132, 231, 223);
 }
 
+.metr_yurish:disabled:hover button  .metr_yurish_person {
+    background: rgb(137, 168, 164);
+}
+
  .metr_yurish_person:disabled:hover, button{
     background: rgb(137, 168, 164);
 }
@@ -97,12 +101,18 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: .3s linear;
+    border: 1px solid rgb(132, 231, 223);
 }
 
 .qadam_kattaligi button:hover {
     color: rgb(132, 231, 223);
     background: white;
     border: 1px solid rgb(132, 231, 223);
+}
+
+.btn_2:disabled:hover {
+    background: rgb(137, 168, 164);
+    color: white;
 }
 
 .btn_2 {
@@ -185,6 +195,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     overflow: hidden;
+    border: 1px solid rgb(132, 231, 223);
 }
 
 .btn_6:hover {
