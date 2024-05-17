@@ -40,6 +40,11 @@ body {
 
 .metr_yurish_person:hover {
     transform: scale(1.09);
+    transform: rotate(15deg)
+    rotateY(17deg)
+    perspective(600px)
+    scale(0.9);
+  transform-origin: center center;
 }
 
 .metr_yurish button {
@@ -66,14 +71,26 @@ body {
 
 .metr_yurish:hover .metr_yurish_person, button {
     color: rgb(132, 231, 223);
+    
+}
+.metr_yurish:hover .metr_yurish_person {
+    color: rgb(132, 231, 223);
+    transform: rotate(15deg)
+    rotateY(17deg)
+    perspective(600px)
+    scale(0.9);
+  transform-origin: center center;
+    
 }
 
 .metr_yurish:disabled:hover button  .metr_yurish_person {
     background: rgb(137, 168, 164);
+    
 }
 
  .metr_yurish_person:disabled:hover, button{
     background: rgb(137, 168, 164);
+    
 }
 
 .btn_1 {
@@ -108,12 +125,20 @@ body {
     color: rgb(132, 231, 223);
     background: white;
     border: 1px solid rgb(132, 231, 223);
+    transform: rotate(15deg)
+    rotateY(17deg)
+    perspective(600px)
+    scale(0.9);
+  transform-origin: center center;
+    
 }
 
 .btn_2:disabled:hover {
     background: rgb(137, 168, 164);
     color: white;
 }
+
+
 
 .btn_2 {
     margin-left: 20px;
@@ -147,6 +172,7 @@ body {
     color: rgb(132, 231, 223);
     background: white;
     border: 1px solid rgb(132, 231, 223);
+  
 }
 
 

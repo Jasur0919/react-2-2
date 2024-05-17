@@ -64,7 +64,7 @@ function App() {
        <div className="qadam_kattaligi">
           <h1>Qadam kattaligi: {countbig} metr</h1>
           <button  data-aos="fade-right"
-            onClick={() => setCountbig(e => e + 1)}>qadam kengaytirish</button>
+            onClick={() => setCountbig(e => e + 1)}  >qadam kengaytirish</button>
           <button disabled={ countbig <= 0} data-aos="fade-left" className='btn_2' onClick={() => setCountbig(e => e - 1)}>qadam qisqartirish</button>
        </div>
      
