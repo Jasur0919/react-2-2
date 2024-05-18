@@ -188,6 +188,7 @@ body {
     outline: none;
     font-size: 30px;
     font-family: 700px;
+    border-radius: 4px;
 }
 
 .add_counter span {
@@ -202,6 +203,7 @@ body {
     outline: none;
     font-size: 30px;
     font-family: 700px;
+    border-radius: 4px;
 }
 
 .btn_5:disabled {
@@ -238,13 +240,6 @@ body {
     justify-content: center;
     gap: 42px;
     margin-top: 30px;
-}
-
-.btn_4 {
-    border-radius: 2px;
-}
-.btn_5 {
-    border-radius: 2px;
 }
 
 
