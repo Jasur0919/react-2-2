@@ -28,7 +28,7 @@ function App() {
 
   const addCounters = () => {
     let item = counters[counters.length-1]
-    counters.push(item + 1)
+    counters.push(item)
     setCounters([...counters])
   }
 
